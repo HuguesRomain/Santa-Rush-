@@ -1,0 +1,25 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "This is a boilerplate repository using `OXO`, a minimalist game library to handle common actions in games. This is not optimized for production and uses purposefully simplified patterns for an educational purpose.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html src/screens/*.html",
+    "build": "parcel build src/index.html src/screens/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FRobaglia/hetic-w1p2021-04-donkey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FRobaglia/hetic-w1p2021-04-donkey/issues"
+  },
+  "homepage": "https://github.com/FRobaglia/hetic-w1p2021-04-donkey#readme"
+}
